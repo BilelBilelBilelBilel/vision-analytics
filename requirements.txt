@@ -1,0 +1,9 @@
+ultralytics>=8.3.0
+opencv-python
+supervision>=0.30,<0.31   # 0.31 moved ByteTrack out into a separate package
+fastapi
+uvicorn
+httpx
+numpy
+matplotlib
+onnxruntime

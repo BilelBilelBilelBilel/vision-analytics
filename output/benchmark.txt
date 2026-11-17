@@ -1,0 +1,4 @@
+backend                 total frames       FPS    avg latency ms
+----------------------------------------------------------------
+PyTorch (.pt)                    300      10.8              92.4
+ONNX Runtime (.onnx)             300       9.5             105.0

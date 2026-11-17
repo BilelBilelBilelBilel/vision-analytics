@@ -1,0 +1,35 @@
+# Python environments
+.venv/
+.venv_clean/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Input videos and local databases
+data/*.mp4
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+
+# Model files
+*.pt
+*.onnx
+
+# Generated output
+output/*
+!output/benchmark.txt
+!output/heatmap.jpg
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
